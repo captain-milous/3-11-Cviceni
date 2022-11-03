@@ -27,6 +27,118 @@
     </div>
   </div>
 
+  <div class="modal modal-xl fade" id="staticBackdropFelicie" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Škoda Felicia, 1997</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/felicie.jpg" class="d-block w-100" width="100%" alt="Felicie venek">
+              </div>
+              <div class="carousel-item">
+                <img src="images/felicie2.jpg" class="d-block w-100" alt="Felicie vnitrek">
+              </div>
+              <div class="carousel-item">
+                <img src="images/felicie3.jpg" class="d-block w-100" alt="Felicie kufr">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p class="h3">Technicke Parametry</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="album py-5">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+
+        <div id="1" class="col">
+          <div class="card shadow-sm">
+            <img src="images/felicie.jpg" width="100%" height="225">
+
+            <div class="card-body">
+              <h3 class="fw-bold lh-1">Felicie</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque porta. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis.</p>
+            </div>
+            <div class="card-body align-items-center bg-light border-top">
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdropFelicie">
+                More details
+              </button>
+              
+            </div>
+          </div>
+        </div>
+
+        <div id="2" class="col">
+          <div class="card shadow-sm">
+            <img src="images/skoda110r.jpg" width="100%" height="225">
+
+            <div class="card-body">
+              <h3 class="fw-bold lh-1">Vysehrad</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque porta. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis.</p>
+            </div>
+            <div class="card-body align-items-center bg-light border-top">
+              <button type="button" class="btn btn-primary btn-lg px-1 me-md-1 fw-bold">More details</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="3" class="col">
+          <div class="card shadow-sm">
+            <img src="images/trabant.jpeg" width="100%" height="225">
+
+            <div class="card-body">
+              <h3 class="fw-bold lh-1">Charles Bridge</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque porta. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis.</p>
+            </div>
+            <div class="card-body align-items-center bg-light border-top">
+              <button type="button" class="btn btn-primary btn-lg px-1 me-md-1 fw-bold">More details</button>
+            </div>
+          </div>
+        </div>
+
+        <div id="4" class="col">
+          <div class="card shadow-sm">
+            <img src="images/zigulik.jpg" width="100%" height="225">
+
+            <div class="card-body">
+              <h3 class="fw-bold lh-1">Main Station</h3>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Quisque porta. Nulla turpis magna, cursus sit amet, suscipit a, interdum id, felis.</p>
+            </div>
+            <div class="card-body align-items-center bg-light border-top">
+              <button type="button" class="btn btn-primary btn-lg px-1 me-md-1 fw-bold">More details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <div class="border border-success p-2 mb-2">
   <p class="h1">These are examples</p>
 <!-- Collapsable Example -->
@@ -101,13 +213,16 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="images/felicie.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="images/skoda110r.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="images/trabant.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/zigulik.jpeg" class="d-block w-100" alt="...">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
